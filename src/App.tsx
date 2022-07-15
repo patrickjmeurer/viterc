@@ -13,7 +13,9 @@ function App() {
       </div>
       <h2>Vite + React + TypeScript + Eslint (Airbnb) + Eslint = ViteRC❤️‍🔥</h2>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
+        <button type="button" onClick={() => setCount(count + 1)}>
+          count is {count}
+        </button>
       </div>
       <p className="read-the-docs">
         <a className="App-link" href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener noreferrer">
