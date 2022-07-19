@@ -9,6 +9,7 @@ A modern minimal Vite + React + TypeScript template with pre-configured ESLint (
 ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 ![Jest](https://img.shields.io/badge/jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Testing Library](https://img.shields.io/badge/testing%20library-E33332?style=for-the-badge&logo=testing-library&logoColor=white)
+![Commitlint](https://img.shields.io/badge/commitlint-000000?style=for-the-badge&logo=commitlint&logoColor=white)
 
 ![Screenshot](https://i.imgur.com/4dpYsyG.png)
 
@@ -21,6 +22,8 @@ A modern minimal Vite + React + TypeScript template with pre-configured ESLint (
 - 🌀 [Prettier](https://prettier.io) - Opinionated Code Formatter
 - 🐺 [Husky](https://github.com/typicode/husky) - Native Git hooks
 - ⚙️ [Jest](https://jestjs.io/) - Testing libraries
+- ⌨️ Absolute Imports
+- 📑 [Commitlint](https://commitlint.js.org/) - Linting your commits based on commit convention
 
 ## Why
 
@@ -55,6 +58,7 @@ yarn dev
 | yarn format   | Runs the Prettier and fix code style                                        |
 | yarn compile  | Runs the TS Compiling                                                       |
 | yarn test     | Run the app tests.                                                          |
+| yarn commit   | Open the CZ CLI to create a message to your commit.                         |
 
 ## TODO
 
@@ -62,8 +66,8 @@ yarn dev
 - [x] Prettier
 - [x] Husky
 - [x] Testing Tools
-- [ ] Absolute imports
-- [ ] Commit linting
+- [x] Absolute imports
+- [x] Commit linting
 
 ## License
 
