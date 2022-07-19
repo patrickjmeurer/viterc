@@ -9,7 +9,6 @@
     "email": "patrickjmeurer@gmail.com",
     "url": "https://github.com/potreco"
   },
-  "type": "module",
   "scripts": {
     "postinstall": "husky install",
     "dev": "vite",
