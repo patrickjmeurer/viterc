@@ -1,15 +1,14 @@
 {
   "name": "viterc",
   "private": false,
-  "version": "0.0.0",
-  "description": "A modern minimal Vite + React + TypeScript template with pre-configured ESLint (with Airbnb JS/React rules), Prettier out of the box 📦",
+  "version": "1.0.0",
+  "description": "A modern minimal Vite + React + TypeScript template with pre-configured ESLint (with Airbnb JS/React rules), Prettier, Testing with Jest and Git hooks with Husky out of the box 📦",
   "license": "MIT",
   "author": {
     "name": "Patrick Jean Meurer",
     "email": "patrickjmeurer@gmail.com",
     "url": "https://github.com/potreco"
   },
-  "type": "module",
   "scripts": {
     "postinstall": "husky install",
     "dev": "vite",
