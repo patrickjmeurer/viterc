@@ -21,6 +21,7 @@ A modern minimal Vite + React + TypeScript template with pre-configured ESLint (
 - 🌀 [Prettier](https://prettier.io) - Opinionated Code Formatter
 - 🐺 [Husky](https://github.com/typicode/husky) - Native Git hooks
 - ⚙️ [Jest](https://jestjs.io/) - Testing libraries
+- ⌨️ Absolute Imports
 
 ## Why
 
@@ -62,7 +63,7 @@ yarn dev
 - [x] Prettier
 - [x] Husky
 - [x] Testing Tools
-- [ ] Absolute imports
+- [x] Absolute imports
 - [ ] Commit linting
 
 ## License
