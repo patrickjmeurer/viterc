@@ -16,7 +16,7 @@ A modern minimal Vite + React + TypeScript template with pre-configured ESLint (
 
 - ⚡️ [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
 - ⚛️ [React 18](https://reactjs.org/) - A JavaScript library for building user interfaces
-- 💎 [TypeScript](https://www.typescriptlang.org/)
+- 💎 [TypeScript](https://www.typescriptlang.org/) - Why not?!
 - 🔨 [EsLint](https://eslint.org/) - Pluggable JavaScript linter
 - 🌀 [Prettier](https://prettier.io) - Opinionated Code Formatter
 - 🐺 [Husky](https://github.com/typicode/husky) - Native Git hooks
@@ -24,7 +24,7 @@ A modern minimal Vite + React + TypeScript template with pre-configured ESLint (
 
 ## Why
 
-This template arose out of a need to unite all the above libraries, which were not found in the existing Vite templates.
+This template arose out of a need to unite all the above libraries, which were not found in the existing Vite templates. This template has an active contributors that will update everything on this template as needed
 
 ## Usage
 
