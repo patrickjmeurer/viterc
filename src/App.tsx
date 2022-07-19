@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
+import reactLogo from '../public/react.svg';
 import './App.css';
 
 function App() {
@@ -11,13 +11,13 @@ function App() {
         <img src="/vite.svg" className="logo" alt="Vite logo" />
         <img src={reactLogo} className="logo react" alt="React logo" />
       </div>
-      <h2>Vite + React + TypeScript + Eslint (Airbnb) + Eslint = ViteRC❤️‍🔥</h2>
+      <h2>Vite + React + TypeScript + Eslint (Airbnb) + Eslint + Jest + Testing Library = ViteRC❤️‍🔥</h2>
       <div className="card">
         <button type="button" onClick={() => setCount(count + 1)}>
           count is {count}
         </button>
       </div>
-      <p className="read-the-docs">
+      <p className="read-the-docs" data-testId="read-the-docs">
         <a className="App-link" href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener noreferrer">
           Vite Docs
         </a>
@@ -45,6 +45,19 @@ function App() {
           rel="noopener noreferrer"
         >
           Airbnb React Style Guide
+        </a>
+        {' | '}
+        <a
+          className="App-link"
+          href="https://jestjs.io/pt-BR/docs/getting-started"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Jest
+        </a>
+        {' | '}
+        <a className="App-link" href="https://testing-library.com" target="_blank" rel="noopener noreferrer">
+          Testing Library
         </a>
         {' | '}
         <a className="App-link" href="https://github.com/potreco/viterc" target="_blank" rel="noopener noreferrer">
