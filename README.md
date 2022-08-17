@@ -60,6 +60,17 @@ yarn dev
 | yarn test     | Run the app tests.                                                          |
 | yarn commit   | Open the CZ CLI to create a message to your commit.                         |
 
+## About the absolute imports
+
+To correctly functioning (code and tests) of absolute imports, you should add some codes in some files, like:
+
+- jest.config.js
+- vite.config.ts
+- tsconfig.json
+
+We already writed some absolute imports on these files, so if you wanna more paths or edit some, feel free to do.
+If your not safe about it or have some question, send us a thread on [Github Discussions](https://github.com/potreco/viterc/discussions/new?category=q-a) asking for, we were happy to help
+
 ## TODO
 
 - [x] Eslint
