@@ -3,7 +3,7 @@ import './App.css';
 import Header from '@/Components/Header';
 import ReadTheDocs from '@/Components/ReadTheDocs';
 
-function App() {
+const App: React.FC = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -17,6 +17,6 @@ function App() {
       <ReadTheDocs />
     </div>
   );
-}
+};
 
 export default App;
